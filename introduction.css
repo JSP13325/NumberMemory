@@ -1,0 +1,155 @@
+body {
+    background-image: url('images/Introduction-page-material/介绍页.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px;
+    height: 95vh;
+}
+
+.back-button {
+    border: none;
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 5%; 
+    left: 40px; 
+    width: 200px; 
+    background-image: url(images/Introduction-page-material/介绍页-返回-图框背景.png);
+    background-size:295px;
+    background-repeat: no-repeat;
+}
+
+.back-button img {
+    width: 115px; 
+    cursor: pointer;
+    position: relative;
+}
+
+
+.back-button span {
+    position: absolute;
+    bottom: 15px;
+    left: 65%;
+    transform: translateX(-50%);
+    font-size: 16px; 
+    color: #ffffff;
+}
+
+.content {
+    width: 45%;
+
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 120px; 
+    margin-top: 20px; 
+    
+}
+
+.text-section {
+    margin-bottom: 20px;
+    background-image: url(images/Introduction-page-material/介绍页-文本框-背景.png);
+    background-size: 105%;
+    background-repeat: no-repeat;
+    margin-top: 45px;
+    width: 500px;
+    margin-left: 30px;
+    font-size:110%;
+}
+
+.text-section h2 {
+    margin-top: 5px;
+    margin-left: 30px;
+    color:#E8F8F5;
+}
+.text-section p {
+    margin-bottom: 15px;
+    margin-left: 30px;
+    font-size:100%
+}
+
+
+.graph-section {
+
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 65px;
+    margin-right: 50px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+
+.navigation button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+}
+
+.navigation img {
+    width: 120px;
+}
+
+.navigation span {
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: #333;
+}
+
+.start-button {
+    background: none;
+    border: none;
+    padding: 0;
+    position: absolute;
+    bottom: 10%;
+    right: 135px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start-button img {
+    width: 240px;
+}
+
+.start-button span {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: #E8F8F5;
+}
+
+.brain-image {
+    width: 30%;
+    right: 10%;
+    margin-right: 120px;
+    margin-top: 8%; ;
+}
+
+.brain-image img {
+    width: 100%;
+    border-radius: 50%;
+}

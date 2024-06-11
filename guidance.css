@@ -1,0 +1,159 @@
+body {
+    background-image: url('images/guidance-image/训练页-3.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px;
+    height: 95vh;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    padding: 0;
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 30px; 
+    left: 40px; 
+    width: 200px; 
+    background-image: url(images/Introduction-page-material/介绍页-返回-图框背景.png);
+    background-size:295px;
+    background-repeat: no-repeat;
+}
+
+.back-button img {
+    width: 115px; 
+    cursor: pointer;
+    position: relative;
+}
+
+.back-button span {
+    position: absolute;
+    bottom: 15px;
+    left: 65%;
+    transform: translateX(-50%);
+    font-size: 16px; 
+    color: #ffffff;
+}
+
+.title {
+    background-image: url('images/guidance-image/标题背景.png');
+    background-size: cover;
+    padding: 10px;
+    border-radius: 10px;
+    color: #abfaf3;
+    margin: 0;
+    position: absolute;
+    left: 38%;
+    font-size: 2.5em;
+    text-align: center
+
+}
+
+.video-frame {
+    position: relative;
+    display:block
+    margin: 20px auto;
+    width: fit-content;
+}
+
+.frame-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 108%;
+    height: 65%;
+    pointer-events: none;
+    margin-top: 120px;
+    margin-left: 340px;
+}
+
+.video-frame video {
+    width: 600px; 
+    height: 350px;
+    position: relative;
+    z-index: 1;
+    margin-top: 143px;
+    left: 60.6%;
+}
+
+
+.content {
+    width: 45%;
+
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 120px; 
+    margin-top: 20px; 
+    
+}
+
+.description {
+    font-size: 32px;
+    color: #0f8d83;
+    margin-top: 580px;
+    text-align: center; /* Center the text */
+    width: 100%; /* Ensure the description takes the full width */
+    display: flex;
+margin-right: 100px;
+margin-left: -470px;
+}
+
+
+.start-button {
+    background: none;
+    border: none;
+    padding: 0;
+    position: absolute;
+    bottom: 125px;
+    right: 135px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start-button img {
+    width: 240px;
+}
+
+.start-button span {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: #E8F8F5;
+}
+
+.arrow-animation {
+    position: absolute;
+    bottom: 200px; 
+    right: 220px; 
+    width: 80px; 
+    animation: pointArrow 0.8s infinite;
+}
+
+@keyframes pointArrow {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
